@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="change_theme"
+        app:title="@string/dark_theme"
+        app:summary="@string/dark_theme_switch_common"/>
+
+    <Preference
+        app:key="logout"
+        app:title="@string/logout"
+        app:summary="@string/log_out_common"/>
+
+    <Preference
+        app:key="unregister"
+        app:title="@string/unregister"
+        app:summary="@string/unregister_common"/>
+
+</PreferenceScreen>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/comics_details_card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/small_margin"
+    tools:context=".ui.user.comics.details.ComicsDetailsFragment">
+
+    <ScrollView
+        android:id="@+id/scroll_comics_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_comics_details"
+                android:layout_width="match_parent"
+                android:layout_height="388dp"
+                android:layout_margin="@dimen/small_margin" />
+
+            <TextView
+                android:id="@+id/title_comics_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/medium_padding"
+                android:text="@string/comics_title"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="@dimen/big_text_size" />
+
+            <TextView
+                android:id="@+id/description_comics_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/medium_padding"
+                android:text="@string/description_comics"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="@dimen/medium_text_size" />
+
+            <Button
+                android:id="@+id/text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/learn_more"
+                android:padding="@dimen/medium_padding"
+                android:textColor="@color/colorAccent"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.google.android.material.card.MaterialCardView>

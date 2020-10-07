@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Marvel Universe</string>
+    <string name="log_in">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="title_main_tool_bar">Marvel Universe</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_login_tool_bar">Log In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="input_incorrect_length">You need 5 characters or more</string>
+    <string name="input_incorrect_chars">Use only latin letters and numbers</string>
+    <string name="login_error">This user does not exist</string>
+    <string name="input_error">Error logging you in. Try again</string>
+    <string name="registration_exists">This username already exists. Try again</string>
+    <string name="registration_error">Failed to register a new user</string>
+    <string name="registration">Registration</string>
+    <string name="characters">CHARACTERS</string>
+    <string name="comics">COMICS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="character_name">Character name</string>
+    <string name="description_character">Description character</string>
+    <string name="comics_title">Comics title</string>
+    <string name="description_comics">Description comics</string>
+    <string name="settings">Settings</string>
+    <string name="connection_error">Connection error</string>
+    <string name="unregister">Unregister</string>
+    <string name="unregister_error">Unregister error</string>
+    <string name="logout_error">Logout error</string>
+    <string name="logout">Log out</string>
+    <string name="try_again">Try again</string>
+    <string name="there_is_not_suitable_program">There is not suitable program</string>
+    <!-- Preference Titles -->
+    <string name="common">Common</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="dark_theme_switch_common">Switch between light and dark theme</string>
+    <string name="log_out_common">Log out of your account</string>
+    <string name="unregister_common">Canceling your account registration</string>
+    <string name="learn_more">Learn more</string>
+    <string name="name">Name</string>
+</resources>

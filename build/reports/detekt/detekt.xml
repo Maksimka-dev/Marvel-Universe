@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+<file name="/sysroot/home/user1/Android/rs-school-android/Final_Task/viktor-huk-ANDROID2020/MarvelUniverse/app/src/main/java/com/marvel/marveluniverse/ui/user/MainActivity.kt">
+	<error line="25" column="7" severity="warning" message="Class &apos;MainActivity&apos; with &apos;12&apos; functions detected. Defined threshold inside classes is set to &apos;11&apos;" source="detekt.TooManyFunctions" />
+</file>
+<file name="/sysroot/home/user1/Android/rs-school-android/Final_Task/viktor-huk-ANDROID2020/MarvelUniverse/app/src/main/java/com/marvel/marveluniverse/ui/authorization/login/LoginFragment.kt">
+	<error line="65" column="17" severity="warning" message="The function initObservers is too long (80). The maximum length is 60." source="detekt.LongMethod" />
+</file>
+<file name="/sysroot/home/user1/Android/rs-school-android/Final_Task/viktor-huk-ANDROID2020/MarvelUniverse/app/src/main/java/com/marvel/marveluniverse/ui/authorization/registration/RegistrationFragment.kt">
+	<error line="66" column="17" severity="warning" message="The function initObservers is too long (79). The maximum length is 60." source="detekt.LongMethod" />
+</file>
+<file name="/sysroot/home/user1/Android/rs-school-android/Final_Task/viktor-huk-ANDROID2020/MarvelUniverse/app/src/main/java/com/marvel/marveluniverse/ui/user/characters/search/SearchCharacterViewModel.kt">
+	<error line="44" column="30" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="/sysroot/home/user1/Android/rs-school-android/Final_Task/viktor-huk-ANDROID2020/MarvelUniverse/app/src/main/java/com/marvel/marveluniverse/ui/user/characters/CharactersListViewModel.kt">
+	<error line="46" column="40" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="/sysroot/home/user1/Android/rs-school-android/Final_Task/viktor-huk-ANDROID2020/MarvelUniverse/app/src/main/java/com/marvel/marveluniverse/ui/user/comics/ComicsViewModel.kt">
+	<error line="46" column="37" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="/sysroot/home/user1/Android/rs-school-android/Final_Task/viktor-huk-ANDROID2020/MarvelUniverse/app/src/main/java/com/marvel/marveluniverse/repository/MarvelRepository.kt">
+	<error line="95" column="42" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+</checkstyle>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "803912024845",
+    "firebase_url": "https://marvel-universe-64606.firebaseio.com",
+    "project_id": "marvel-universe-64606",
+    "storage_bucket": "marvel-universe-64606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803912024845:android:262b9cb618eac8abd92644",
+        "android_client_info": {
+          "package_name": "com.marvel.marveluniverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803912024845-3cpno03bh98a6v7l0ovbtkg183i6jtqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwAbQtLeOfsoL9fk2VHaBzyHj0wp9dyVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803912024845-3cpno03bh98a6v7l0ovbtkg183i6jtqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
